@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+    {{ js_resources|indent(4)|safe }}
+    {{ css_resources|indent(4)|safe }}
+    {{ script|indent(4)|safe }}   
+    {{ script2|indent(4)|safe }}
+    {{ script3|indent(4)|safe }}
+    {{ script4|indent(4)|safe }}
+    {{ script5|indent(4)|safe }}
+ </head>   
+<style>
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  }
+* {box-sizing: border-box;}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin: auto;
+}
+
+.item5 {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+.item6 {
+  grid-column: 3 / span 2;
+  grid-row: 2;
+}
+</style>
+<br>
+<h1 style = "text-align: center;">Primary Dashboard</h1>
+<div class="wrapper">
+        <div class="grid-item item1">
+          <h2 style = "text-align: center;">Metrics</h2>
+          {{ datatable|indent(4)|safe }}
+           <br>{{ datatable|indent(4)|safe }}</div>
+        <div class="grid-item item2">{{ div|indent(4)|safe }}</div>
+        <div class="grid-item item3">{{ div3|indent(4)|safe }}</div>
+        <div class="grid-item item4">{{ div2|indent(4)|safe }}</div>
+        <div class="grid-item item5">{{ div4|indent(4)|safe }}</div>
+        <div class="grid-item item6">{{ div5|indent(4)|safe }}</div>
+</div>
+<br>
+<br>
+</html>
+{% endblock %}
