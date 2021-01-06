@@ -1,3 +1,3 @@
 # Bokeh_Flask_Dashboard
 
-Analytics dashboard boiler plate code.
+Analytics dashboard boilerplate code.
