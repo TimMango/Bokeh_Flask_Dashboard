@@ -2,4 +2,4 @@
 
 Analytics dashboard boilerplate code.
 
-![Dashboard Example]("blob/main/Dashboard_Example.png?raw=true") 
+![Dashboard Example]("Dashboard_Example.png?raw=true") 
