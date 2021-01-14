@@ -2,4 +2,4 @@
 
 Analytics dashboard boilerplate code.
 
-![alt]("Bokeh_Flask_Dashboard/Dashboard_Example.png") 
+![Dashboard Example]("https://github.com/TimMango/Bokeh_Flask_Dashboard/blob/main/Dashboard_Example.png") 
